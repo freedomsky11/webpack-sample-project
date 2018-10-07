@@ -71,6 +71,7 @@
 const greeter = __webpack_require__(1);
 document.querySelector('#root').appendChild(greeter());
 
+console.log('hello world');
 
 /***/ }),
 /* 1 */
