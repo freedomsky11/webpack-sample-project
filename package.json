@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "webpack": "^3.5.3",
-    "webpack-dev-server": "^2.9.0"
+    "webpack-dev-server": "^2.9.7"
   },
   "name": "webpack-sample-project",
   "description": "This project is used to understand how webpack work.",
@@ -10,7 +10,8 @@
   "dependencies": {},
   "scripts": {
     "test": "test",
-    "start": "webpack"
+    "start": "webpack",
+    "server": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
